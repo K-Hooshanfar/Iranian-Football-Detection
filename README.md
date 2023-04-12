@@ -56,7 +56,7 @@ Our data set is uploaded manually using following command:
 ```
 !unzip -q ../Iranian-Football-Detection.zip -d ../
 ```
-And here's the custom yaml for our data set:
+And here's the custom [yaml](YOLOv5/IFD.yaml) for our data set:
 ```
 train: ../Iranian-Football-Detection/  # train images
 val: ../Iranian-Football-Detection/  # val images
@@ -90,8 +90,8 @@ Here's the command for applying custom weights and its result on test set:
 !python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.25 --source ../sample_1.mp4
 ```
 <p float="center">
-  <img src="Images/Sample-1.png?raw=true" width="37.5%" />
-  <img src="Images/Sample-2.png?raw=true" width="37.75%" /> 
+  <img src="Images/Sample-1.png?raw=true" width="50%" />
+  <img src="Images/Sample-2.png?raw=true" width="50%" /> 
 </p>
 
 ### How to contribute to Soccer-Detection
