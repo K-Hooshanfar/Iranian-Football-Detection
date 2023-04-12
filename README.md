@@ -4,7 +4,7 @@
 
 ### Train YOLOv5
 
-In this project, we try the YOLOv5 model on our custom data set. To train the model, we utilize the GPU in Colab. The properties of this GPU are shown below:
+In this project, we try the [YOLOv5](https://github.com/ultralytics/yolov5) model on our custom data set. To train the model, we utilize the GPU in Colab. The properties of this GPU are shown below:
 
 ```
 Tue Aug 16 06:47:37 2022       
