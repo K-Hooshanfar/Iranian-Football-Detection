@@ -1,6 +1,6 @@
 # Soccer Detection
 
-## Train YOLOv5
+### Train YOLOv5
 
 In this project, we try the YOLOV5 model on our custom data set. To train the model, we utilize the GPU in Colab. The properties of this GPU are shown below:
 ```
@@ -25,7 +25,7 @@ Tue Aug 16 06:47:37 2022
 |  No running processes found                                                 |
 +-----------------------------------------------------------------------------+
 ```
-## Data set preparation
+### Data set preparation
 
 Our data set contains 100 images in 2 Player, and Ball classes. We use this data set to customize the YOLO algorithm weights based on some related categories of images with our dataset.
 
@@ -40,7 +40,7 @@ Our data set contains 100 images in 2 Player, and Ball classes. We use this data
 0 0.859670 0.535695 0.044811 0.178475
 0 0.785967 0.653279 0.069575 0.203672
 ```
-## Import model
+### Import model
 
 In the first step, we need to clone the YOLOV5 repository and install requirements.txt. Models and datasets download automatically from the latest YOLOv5 release.
 ```
@@ -70,7 +70,7 @@ As an example, the small version of YOLOv5 is trained by the following code:
 !python train.py --img 640 --batch 32 --epochs 200 --data IFD.yaml --weights yolov5s.pt --cache
 ```
 
-## The training results
+### The training results
 
 The summary of the training procedure for YOLOv5s:
 Model summary: 213 layers, 7015519 parameters, 0 gradients, 15.8 GFLOPs
@@ -83,7 +83,7 @@ Model summary: 213 layers, 7015519 parameters, 0 gradients, 15.8 GFLOPs
 
 ![Alt text](Images/Results.png)
 
-## Applying train weights
+### Applying train weights
 
 Here's the command for applying custom weights and its result on test set:
 ```
@@ -94,10 +94,10 @@ Here's the command for applying custom weights and its result on test set:
   <img src="Images/Sample-2.png?raw=true" width="37.75%" /> 
 </p>
 
-## How to contribute to Soccer-Detection
+### How to contribute to Soccer-Detection
 
 We use the Fork and Pull Request model for contribution. For more information read the [CONTRIBUTE.md](https://github.com/klammhsa/Soccer-Detection/blob/main/CONTRIBUTE.md).
 
-## Contributors
+### Contributors
 - [Kiana Hooshanfar](https://www.github.com/K-Hooshanfar)
 - [Mahsa Kalam](https://www.github.com/klammhsa)
