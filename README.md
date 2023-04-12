@@ -1,10 +1,33 @@
+<a href="https://colab.research.google.com/drive/167NE06u9RtpaVdpN2cnXgP16OoKF7aMx"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
 # Iranian Footaball Detection (IFD)
 
 ### Train YOLOv5
 
-In this project, we try the YOLOv5 model on our custom data set. To train the model, we utilize the GPU in Colab.
+In this project, we try the YOLOv5 model on our custom data set. To train the model, we utilize the GPU in Colab. The properties of this GPU are shown below:
 
-<a href="https://colab.research.google.com/drive/167NE06u9RtpaVdpN2cnXgP16OoKF7aMx"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+```
+Tue Aug 16 06:47:37 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.32.03    Driver Version: 460.32.03    CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:00:04.0 Off |                    0 |
+| N/A   38C    P8     9W /  70W |      0MiB / 15109MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+```
 
 ### Data set preparation
 
