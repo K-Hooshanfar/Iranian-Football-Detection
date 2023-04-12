@@ -1,0 +1,6 @@
+train: ../Iranian-Football-Detection/  # train images
+val: ../Iranian-Football-Detection/  # val images
+
+# Classes
+nc: 2  # number of classes
+names: ['player', 'ball']  # class names
