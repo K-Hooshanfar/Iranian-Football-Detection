@@ -1,4 +1,4 @@
-# Soccer Detection
+# Iranian Footaball Detection (IFD)
 
 ### Train YOLOv5
 
