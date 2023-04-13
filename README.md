@@ -98,7 +98,7 @@ Here's the command for applying custom weights and its result on test set:
   <img src="Images/Sample-2.png?raw=true" width="50%" /> 
 </p>
 
-### How to contribute to Soccer-Detection
+### How to contribute to Iranian-Football-Detection
 
 We use the Fork and Pull Request model for contribution. For more information read the [CONTRIBUTE.md](https://github.com/klammhsa/Soccer-Detection/blob/main/CONTRIBUTE.md).
 
